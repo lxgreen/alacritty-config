@@ -13,21 +13,22 @@ scrolling:
   multiplier: 3
 font:
   normal:
-    family: FiraCode Nerd Font Mono
+    family: Hack Nerd Font Mono
     style: Regular
   bold:
-    family: FiraCode Nerd Font Mono
+    family: Hack Nerd Font Mono
     style: Bold
   italic:
-    family: Go Mono for Powerline
+    family: Hack Nerd Font Mono
     style: Italic
   bold_italic:
-    family: FiraCode Nerd Font Mono
+    family: Hack Nerd Font Mono
     style: Bold Italic
-  size: 14.0
+  size: 15.0
   use_thin_strokes: true
 # If `true`, bold text is drawn using the bright color variants.
 draw_bold_text_with_bright_colors: true
+alt_send_esc: true
 schemes:
   solarized_light:
     # Default colors
@@ -146,10 +147,22 @@ cursor:
 # Live config reload (changes require restart)
 live_config_reload: true
 # Tell Alacritty that we’re using fish here
-#shell:
-#program: /bin/zsh
-#args:
-#- --login
+# shell:
+#   program: /usr/local/bin/tmux
+#   args:
+#     - -L
+#     - tmux-server
+#     - -f
+#     - /Users/alexgr/.tmux.conf
+#     - new
+#     - -A
+#     - -s
+# shell:
+# program: /usr/bin/zsh
+# args:
+#   - -c
+#   - source ~/.zshrc
+#     - neovim-ricos
 # Enable clickable URLs
 # mouse:
 #   hints:
