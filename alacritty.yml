@@ -25,10 +25,9 @@ font:
     family: Hack Nerd Font Mono
     style: Bold Italic
   size: 15.0
-  use_thin_strokes: true
+  AppleFontSmoothing: true
 # If `true`, bold text is drawn using the bright color variants.
 draw_bold_text_with_bright_colors: true
-alt_send_esc: true
 schemes:
   solarized_light:
     # Default colors
@@ -141,6 +140,7 @@ selection:
   save_to_clipboard: true
 # Allow terminal applications to change Alacritty’s window title.
 window.dynamic_title: true
+window.option_as_alt: true
 cursor:
   style: Block
   unfocused_hollow: true
